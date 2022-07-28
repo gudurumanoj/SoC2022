@@ -30,6 +30,8 @@ This is the main project.
    * Generator comprises of 22 1d convolution layers of which half are convolution layers and half are deconvolution layers
    * It also has skip connections similar to the Autoencoder model
    * Discriminator as well is a deep convoluted network with a dense layer in the end
+- The Generator looks like <img src="/SEGAN/images/generator.png" alt="Generator model image"/>
+- The Discriminator looks like <img src="/SEGAN/images/discriminator.png" alt="Discriminator model image"/>
 - Input and output format
    * The pair (noisydata, cleandata) is considered as real data and (noisydata, predicteddata) is considered to be fake data as stated in the SEGAN research paper
    * The output of generator is same as the input size. Discriminator's output is the prediction 0 or 1
